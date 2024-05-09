@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nisal web</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+ 
+<body>
+
+    <!-- Header  -->
+    <header>
+        <a href="index.html" class="logo">NISAL</a>
+        <nav class="navbar">
+		  <ul class="sidebar">
+		    <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#ffffff"><path d="m249-207-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Projects.html">Projects</a</li>
+            <li><a href="#">Resume</a><li>
+		  </ul>
+		  
+		  <ul>
+            <li class="hideOnMobile"><a href="index.html">Home</a></li>
+            <li class="hideOnMobile"><a href="Projects.html">Projects</a</li>
+            <li class="hideOnMobile"><a href="#">Resume</a><li>
+			<li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#ffffff"><path d="M120-240v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+		  </ul>
+        </nav>
+    </header>
+
+    <div class="row" style="margin-top: 60px;">
+        <div class="side">
+            <div class="resume-img">
+                <img src="photos/img2.png" alt="">
+                <div class="bottom-left">Nisal Prabodana</div>
+            </div>
+
+            <div class="information">
+
+                <div class="information-text">
+                    <h2 style="display: flex;"><i class="material-symbols-outlined">business_center</i>Fullstack Developer</h2>
+                </div>
+
+                <div class="information-text">
+                    <h2 style="display: flex;"><i class="material-symbols-outlined">call</i>071 443 9176</h2>
+                </div>
+
+                <div class="information-text">
+                    <h2 style="display: flex;"><i class="material-symbols-outlined">home</i>Kurunegala, Sri Lanka</h2>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="section-heading">
+               <h2>EDUCATION</h2>
+            </div>
+            
+            <div class="edu">
+            <div class="edu-content">
+                <h3>W3Schools.com</h3>
+                <p>Web Development! All I need to know in one place</p>
+            </div>
+            <div class="edu-content">
+                <h3>W3Schools.com</h3>
+                <p>Web Development! All I need to know in one place</p>
+            </div>
+            </div>
+
+            <div class="section-heading">
+                <h2>SKILLS</h2>
+             </div>
+
+             <div class="skill-text">
+                <p>UI/UX</p>
+                <div class="con">
+                    <div class="skills ui-ux">90%</div>
+                </div>
+             </div>
+             <div class="skill-text">
+                <p>Front End</p>
+                <div class="con">
+                    <div class="skills front-end">80%</div>
+                </div>
+             </div>
+             <div class="skill-text">
+                <p>Back End</p>
+                <div class="con">
+                    <div class="skills back-end">70%</div>
+                </div>
+             </div>
+        </div>
+    </div>
+
+
+    <!-- Contact Me  -->
+    <div class="container" style="margin-top: 50px;">
+        <div class="row-con">
+            <div class="conus">
+                <h1>Contact Me</h1>
+            </div>
+        </div>
+        <div class="row-con input-container" >
+                <div class="col-xs-12">
+                    <div class="styled-input wide">
+                        <input type="text" required />
+                        <label>Name</label> 
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="styled-input">
+                        <input type="text" required />
+                        <label>Email</label> 
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="styled-input" style="float:right;">
+                        <input type="text" required />
+                        <label>Phone Number</label> 
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <div class="styled-input wide">
+                        <textarea required></textarea>
+                        <label>Message</label>
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <div class="btn-lrg submit-btn">Send Message</div>
+                </div>
+        </div>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <!-- Footer  -->
+    <footer class="footer">
+        <div class="down-resume">
+            <a href="Web-Developer.jpg" class="cssbuttons-io-button">
+                <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"></path><path d="M1 14.5a6.496 6.496 0 0 1 3.064-5.519 8.001 8.001 0 0 1 15.872 0 6.5 6.5 0 0 1-2.936 12L7 21c-3.356-.274-6-3.078-6-6.5zm15.848 4.487a4.5 4.5 0 0 0 2.03-8.309l-.807-.503-.12-.942a6.001 6.001 0 0 0-11.903 0l-.12.942-.805.503a4.5 4.5 0 0 0 2.029 8.309l.173.013h9.35l.173-.013zM13 12h3l-4 5-4-5h3V8h2v4z" fill="currentColor"></path></svg>
+                Download Resume
+            </a>
+        </div>
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by  <span>Nisal Prabodana</span> | All Rights Reserved</p>
+        </div>
+    </footer>
+	
+	<!-- Main JS File -->
+  <script src="js/main.js"></script>
+    
+</body>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nisal web</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <!-- Header  -->
+    <header>
+        <a href="index.html" class="logo">NISAL</a>
+        <nav class="navbar">
+		  <ul class="sidebar">
+		    <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#ffffff"><path d="m249-207-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Projects.html">Projects</a</li>
+            <li><a href="resume.html">Resume</a><li>
+		  </ul>
+		  
+		  <ul>
+            <li class="hideOnMobile"><a href="index.html">Home</a></li>
+            <li class="hideOnMobile"><a href="Projects.html">Projects</a</li>
+            <li class="hideOnMobile"><a href="resume.html">Resume</a><li>
+			<li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#ffffff"><path d="M120-240v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+		  </ul>
+        </nav>
+    </header>
+
+    <!-- Projects  -->
+    <section class="Projects" style="margin-top: 120px; ;">
+        <div class="section-heading">
+            <h2>Projects</h2>
+        </div>
+
+        <div class="container">
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="">
+                        <img src="Web-Developer.jpg" alt="Forest" width="600" height="400">
+                    </a>
+                    <div class="desc">Add a description of the image here</div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="">
+                        <img src="Web-Developer.jpg" alt="Forest" width="600" height="400">
+                    </a>
+                    <div class="desc">Add a description of the image here</div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="">
+                        <img src="Web-Developer.jpg" alt="Forest" width="600" height="400">
+                    </a>
+                    <div class="desc">Add a description of the image here</div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="">
+                        <img src="Web-Developer.jpg" alt="Forest" width="600" height="400">
+                    </a>
+                    <div class="desc">Add a description of the image here</div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </section>
+
+    <!-- Footer  -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by  <span>Nisal Prabodana</span> | All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <!-- Main JS File -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
