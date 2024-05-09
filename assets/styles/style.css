@@ -473,6 +473,23 @@ box-shadow: 0 0.3em 1em -0.5em #4d36d0be;
     flex-direction: column;
   }
 }
+@media screen and (max-width: 500px) {
+  .edu-content {
+    margin-left: 20px;
+  }
+  .skill-text {
+    margin-left: 20px;
+  }
+  .con {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 350px) {
+  .information {
+    padding-left: 0;
+  }
+
+}
 
 /*Contact Us*/
 .conus h1 {
